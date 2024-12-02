@@ -50,4 +50,35 @@ h3.jumbo-text {
 .jumbotron div h3 {
     margin-top:1vw;
     margin-bottom:200px;
+    background: #000000;
+}
+.container-fluid{
+    background:whitesmoke;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.form-label {
+    width: 20%; /* Ajusta el ancho según el espacio deseado */
+    font-weight: bold;
+    margin-right: 10px;
+    text-align: left;
+}
+.form-control {
+    flex: 1;
+}
+.contact-card {
+    background-color: #f5f5dc; /* Color beige */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.text-right {
+    text-align: right;
+}
+.text-left {
+    text-align: left; /* Alineación izquierda */
 }
