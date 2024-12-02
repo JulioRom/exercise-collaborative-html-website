@@ -9,7 +9,7 @@ body{
 }
 
 .titulo {
-    font-size: 45px;
+    font-size: 40px;
 }
 
 .texto {
@@ -36,7 +36,6 @@ body{
     background-color: #f3fdff;
     text-align: center;
     font-weight: 550;
-
 }
 
 h1.jumbo-text {
@@ -50,10 +49,7 @@ h3.jumbo-text {
 .jumbotron div h3 {
     margin-top:1vw;
     margin-bottom:200px;
-    background: #000000;
-}
-.container-fluid{
-    background:whitesmoke;
+
 }
 
 .form-group {
