@@ -4,59 +4,50 @@ body{
     margin-top: 0;
 }
 
-.title h1 {
-    background-color: white;
-    color: black;
-} 
-
-#mainContainerTagline{
-    height: 600px;
-    background-image: url(../img/bg.jpg);
-    background-size: 100% 600px;
-    width: auto;
+.nav-link, .navbar-brand {
+    color: gray;
 }
 
-#firstStripe {
-    background-color: white; 
-    height: 140px; 
-    width: 90%;
-    opacity: 0.8;
-margin-top: 90px;
+.titulo {
+    font-size: 45px;
 }
 
-#fisrtStripeFont{
-    
-    font-family: 'Roboto', sans-serif;
-    font-size: 110px;
-  
-
-}
-#secondStripe {
-    background-color: white; 
-    height: 80px; 
-    width: 190%;
-    opacity: 0.8;
+.texto {
+    color: gray;
 }
 
-#secondStripeFont{
-    
-    
-    font-family: 'Roboto', sans-serif;
-    font-size: 60px;
-
+.parrafo {
+    font-size: 20px;
 }
 
-#mainContainerService {
-    height: 600px;
-    background-color: white;
-    width: auto;
+.imagen {
+    width: 300px;
+    height: 300px;
 }
 
-.masthead {
-    height: 100vh;
-    min-height: 500px;
-    background-color: white
+.jumbotron {
+    background-image: url("../img/bg.jpg");
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
+    background-position: bottom;
+
+}
+
+.jumbo-text {
+    background-color: #f3fdff;
+    text-align: center;
+    font-weight: 550;
+
+}
+
+h1.jumbo-text {
+font-size:100px;
+}
+
+h3.jumbo-text {
+    font-size:80px;
+}
+
+.jumbotron div h3 {
+    margin-top:1vw;
+    margin-bottom:200px;
+}
